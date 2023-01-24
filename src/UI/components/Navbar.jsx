@@ -3,7 +3,6 @@ import logo from '../../Img/logo.png';
 import { Link } from 'react-router-dom';
 import '../../assets/css/navbar.css'
 
-
 const Navbar = ({ noti }) => {
     const [notificaciones, setNotificaciones] = useState(0);
 

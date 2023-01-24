@@ -4,7 +4,6 @@ import { collection, getDocs } from 'firebase/firestore/lite';
 import Bg from '../../Img/menu/bg.jpg';
 import MenuImg from '../../Img/menu/menu.png';
 
-
 //const Menu = ({ onAction }) => {
 const Menu = ({ cargaDatosGuardados }) => {
     const [menus, setMenu] = useState('');

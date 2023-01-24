@@ -3,7 +3,6 @@ import { db } from '../../assets/firebase';
 import { doc, getDoc, setDoc, collection, deleteDoc } from 'firebase/firestore/lite';
 import '../../assets/css/carrito.css';
 
-
 function Cart() {
     const [pedidos, setPedidos] = useState('');
     const [total, setTotal] = useState(0);

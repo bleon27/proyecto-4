@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../../assets/firebase';
 import { collection, getDocs, onSnapshot, doc, getDoc, setDoc, deleteDoc } from 'firebase/firestore/lite';
 
-
 const Slide = () => {
     const [slides, setSlides] = useState('');
 

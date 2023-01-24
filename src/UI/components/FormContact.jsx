@@ -1,8 +1,6 @@
 import React from 'react';
 import CallCenter from '../../Img/contact/465016-PG301I-785.jpg';
 
-
-
 class FormContact extends React.Component {
     render() {
         return (
