@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../../assets/firebase';
-import { doc, getDoc, setDoc, collection, deleteDoc } from 'firebase/firestore/lite';
+import { doc, setDoc, collection, deleteDoc } from 'firebase/firestore/lite';
 import '../../assets/css/carrito.css';
 
 function Cart() {
