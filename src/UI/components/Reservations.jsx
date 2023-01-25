@@ -1,14 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { db } from '../../assets/firebase';
-import { doc, getDoc, setDoc, collection, deleteDoc } from 'firebase/firestore/lite';
-import '../../assets/css/carrito.css';
+import { doc, setDoc, collection } from 'firebase/firestore/lite';
 
 function Reservations() {
-    const [pedidos, setPedidos] = useState('');
-    const [total, setTotal] = useState(0);
-    useEffect(() => {
-        //deleteDoc_();
-    }, []);
 
     return (
         <div>

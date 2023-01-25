@@ -47,11 +47,11 @@ function Cart() {
                         </ul>
                     </div>
                     <div className="col-md-7 col-lg-8">
-                        <h4 className="mb-3">Datos de envio</h4>
+                        <h4 className="mb-3">Datos de envió</h4>
                         <form className="needs-validation" noValidate>
                             <div className="row g-3">
                                 <div className="col-sm-6">
-                                    <label htmlFor="firstName" className="form-label">Primer nombre</label>
+                                    <label htmlFor="firstName" className="form-label">Nombres</label>
                                     <input type="text" className="form-control" id="firstName" placeholder="Juan" required />
                                 </div>
                                 <div className="col-sm-6">
@@ -63,7 +63,7 @@ function Cart() {
                                     <input type="email" className="form-control" id="email" placeholder="you@example.com" />
                                 </div>
                                 <div className="col-12">
-                                    <label htmlFor="address" className="form-label">Address</label>
+                                    <label htmlFor="address" className="form-label">Dirección</label>
                                     <input type="text" className="form-control" id="address" placeholder="1234 Main St" required />
                                 </div>
                             </div>
