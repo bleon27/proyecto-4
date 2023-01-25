@@ -35,8 +35,8 @@ function Reservations() {
                                     <input type="email" className="form-control" id="email" placeholder="you@example.com" />
                                 </div>
                                 <div className="col-4">
-                                    <div className="anio">
-                                        <select className="form-select" id="anio" aria-label="Floating label select example">
+                                    <div className="form-floating">
+                                        <select className="form-select" id="mes" aria-label="Floating label select example">
                                             <option value="01">Enero</option>
                                             <option value="02">Febrero</option>
                                             <option value="03">Marzo</option>
@@ -50,12 +50,12 @@ function Reservations() {
                                             <option value="11">Noviembre</option>
                                             <option value="12">Diciembre</option>
                                         </select>
-                                        <label for="anio">Seleccione un mes</label>
+                                        <label htmlFor="mes">Seleccione un mes</label>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="form-floating">
-                                        <select className="form-select" id="mes" aria-label="Floating label select example">
+                                        <select className="form-select" id="dia" aria-label="Floating label select example">
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -87,12 +87,12 @@ function Reservations() {
                                             <option value="29">29</option>
                                             <option value="30">30</option>
                                         </select>
-                                        <label for="mes">Seleccione un día</label>
+                                        <label htmlFor="dia">Seleccione un día</label>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="form-floating">
-                                        <select className="form-select" id="dia" aria-label="Floating label select example">
+                                        <select className="form-select" id="hora" aria-label="Floating label select example">
                                             <option value="18">18</option>
                                             <option value="18:30">18:30</option>
                                             <option value="19">19</option>
@@ -108,7 +108,7 @@ function Reservations() {
                                             <option value="24">24</option>
                                             <option value="24:30">24:30</option>
                                         </select>
-                                        <label for="dia">Seleccione la hora</label>
+                                        <label htmlFor="hora">Seleccione la hora</label>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,6 @@ function Reservations() {
         let firstName = document.getElementById('firstName');
         let lastName = document.getElementById('lastName');
         let email = document.getElementById('email');
-        let anio = document.getElementById('anio');
         let mes = document.getElementById('mes');
         let dia = document.getElementById('dia');
         let hora = document.getElementById('hora');
@@ -140,7 +139,6 @@ function Reservations() {
             nombres: firstName.value,
             apellidos: lastName.value,
             correo: email.value,
-            anio: anio.value,
             mes: mes.value,
             dia: dia.value,
             hora: hora.value,
