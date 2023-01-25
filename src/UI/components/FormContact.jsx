@@ -8,7 +8,7 @@ function FormContact() {
         <div>
             <div className='container text-center py-5'>
                 <h1 className='text-center mb-5'>CONTACTANOS</h1>
-                <form className="row g-3">
+                <div className="row g-3">
                     <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 pe-4">
                         <img src={CallCenter} className="img-fluid" alt="..." />
                     </div>
@@ -53,7 +53,7 @@ function FormContact() {
                             </div>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     );
