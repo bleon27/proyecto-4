@@ -120,7 +120,7 @@ function Cart() {
         email.value = '';
         address.value = '';
         localStorage.setItem('valores', JSON.stringify([]));
-        window.location.href = 'menu';
+        window.location.href = '/';
     }
 
     async function deleteDoc_() {
