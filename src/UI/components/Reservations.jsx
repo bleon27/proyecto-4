@@ -14,12 +14,12 @@ function Reservations() {
         <div>
             <div className='container text-center py-5 px-5' style={{ maxWidth: '960px' }}><div>
                 <div className="py-5 text-center">
-                    <h2>Formulario de pedido</h2>
-                    <p className="lead">Ingrese los datos solicitados para realizar su pedido </p>
+                    <h2>Formulario de reserva</h2>
+                    <p className="lead">Ingrese los datos para la reservación </p>
                 </div>
                 <div className="row g-5">
                     <div className="col-md-12 col-lg-12">
-                        <h4 className="mb-3">Datos de envio</h4>
+                        <h4 className="mb-3">Datos de la reserva</h4>
                         <form className="needs-validation" noValidate>
                             <div className="row g-3">
                                 <div className="col-sm-6">

@@ -32,6 +32,11 @@ const Navbar = ({ noti }) => {
                             </Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link" aria-current="page" to="/reservaciones">
+                                Reservaciones
+                            </Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" aria-current="page" to="/contactanos">
                                 Contáctanos
                             </Link>
@@ -58,10 +63,10 @@ const Navbar = ({ noti }) => {
             let datos = JSON.parse(localStorage.getItem('valores'));
             let cantidad = 0;
             datos.forEach(element => {
-                cantidad+=element.cantidad;
+                cantidad += element.cantidad;
             });
             noti = cantidad;
-            
+
             setNotificaciones(noti);
             /*
             datos.forEach(element => {
